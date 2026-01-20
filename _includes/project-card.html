@@ -1,0 +1,12 @@
+<div class="card">
+  <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
+  <p class="muted">{{ p.category }} · {{ p.year }}</p>
+  {% if p.excerpt %}
+    <p class="muted">{{ p.excerpt | strip_html | truncate: 140 }}</p>
+  {% endif %}
+  <div class="tagrow">
+    {% for t in p.tags %}
+      <span class="tag">{{ t }}</span>
+    {% endfor %}
+  </div>
+</div>

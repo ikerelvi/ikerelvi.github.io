@@ -1,0 +1,10 @@
+<header class="header">
+  <div class="container header-inner">
+    <a class="logo" href="/">Iker Elvi</a>
+    <nav class="nav">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
