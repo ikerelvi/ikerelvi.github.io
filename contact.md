@@ -5,6 +5,6 @@ title: Contact
 
 Email: **[{{ site.email }}](mailto:{{ site.email }})**
 
-LinkedIn: **(pon tu link)**  
+LinkedIn: **https://www.linkedin.com/in/iker-elorza-vidal/**  
 YouTube / Vimeo: **(pon tu link)**  
 SoundCloud / Bandcamp / Spotify: **(pon tu link)**
