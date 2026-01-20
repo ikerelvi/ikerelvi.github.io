@@ -7,7 +7,7 @@ roles: ["ADR", "Foley", "Sound Design", "Ambiences", "Music Edit", "5.1 Mix"]
 tools: ["Pro Tools"]
 tags: ["Sound Redesign", "5.1", "Cinematic"]
 featured: true
-embed: '<iframe src="https://youtu.be/eqCCqMUsJ24" title="Jurassic Park Sound Post"></iframe>'
+embed: '<iframe src="https://www.youtube.com/embed/eqCCqMUsJ24" title="Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
 links:
   - label: "Watch on YouTube"
     url: "https://youtu.be/eqCCqMUsJ24"
