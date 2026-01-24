@@ -4,12 +4,13 @@ layout: default
 
 <section class="hero">
   <h1>Audio Engineer</h1>
-  <p>{{ site.description }} · Based in Europe</p>
+  <p>{{ site.description }}</p>
+  <!-- <p>Based in Europe</p> -->
 
   <div class="btns">
     <a class="btn primary" href="/music/">Music Portfolio</a>
     <a class="btn primary" href="/postproduction/">Post Production Portfolio</a>
-    <a class="btn" href="/assets/files/IkerElvi_CV.pdf">Download CV</a>
+    <a class="btn"  href="/assets/files/IkerElvi_CV.pdf"  target="_blank" rel="noopener">View / Download CV</a>
     <a class="btn" href="/contact/">Contact</a>
   </div>
 </section>
