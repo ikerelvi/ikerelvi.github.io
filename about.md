@@ -2,25 +2,31 @@
 layout: page
 title: About
 ---
-<section class="about-layout">
 
-  <div class="about-photo">
-    <img src="/assets/img/SSL.jpg"
-         alt="Iker Elvi working in the studio">
+
+  <div class="about-hero">
+    <img class="about-img" src="/assets/img/SSL.jpg" alt="Iker Elvi working in the studio">
   </div>
 
-  <div class="about-text">
 
-I’m **Iker Elvi**, an audio engineer focused on **music production**, **post-production for film**, and **game audio**.
+### Hi, I’m **Iker Elvi**
+I’m an **audio engineer and sound designer** working across music production, post-production for film and game audio.
 
-Audio engineer and music producer currently studying at SAE Barcelona, transitioning from 10 years in software development. I bring a **technical and creative** approach to audio production, with experience in recording, mixing, mastering and sound design, along with a strong background in digital tools, automation and innovation.
+I bring a **technical + creative approach** to every project, blending my background in recording, mixing, mastering and sound design with a decade of experience in software development. This combination allows me to tackle both the artistic *and* technical sides of audio with precision.
 
-Music has always been an essential part of my life. As a guitarist and bassist, I have played in various bands and recorded studio albums, performing in renowned venues across Spain. This dual experience as a performer and producer allows me to approach sound with both precision and artistic sensitivity.
+#### 🎸 My Journey
+As a guitarist and bassist, I’ve played in bands and recorded studio albums — from rehearsals to live shows — which shapes how I approach sound:  
+balancing **musicality** with **technical clarity**.
 
-- Certifications: **Wwise**, **Pro Tools**, **Ableton Live**, **DiGiCo SD Series**
-- Interests: recording, mixing/mastering, sound design, implementation
+---
 
-If you want to collaborate or discuss opportunities: **{{ site.email }}**.
+#### 🔧 Tools & Certifications
+- **Software**: Pro Tools · Ableton Live · Wwise · DiGiCo SD Series
+- **Focus Areas**: Recording · Mixing · Mastering · Sound Design · Implementation
 
-  </div>
-</section>
+---
+
+If you’d like to **collaborate, discuss opportunities, or just connect**, you can reach me at:  
+**{{ site.email }}**
+
+

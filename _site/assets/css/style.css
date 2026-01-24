@@ -89,12 +89,14 @@ hr{border:0;border-top:1px solid var(--line);margin:28px 0}
 @media (max-width:760px){
   .video-card{ grid-column:span 12; }
 }
-
-.about-photo img{
-  width:100%;
-  max-width:320px;   /* 🔹 aquí controlas el tamaño */
-  height:auto;
-  border-radius:18px;
-  border:1px solid var(--line);
-  background:var(--card);
+.about-hero{
+  margin: 28px 0 18px;
+}
+.about-img{
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  display:block;
 }
