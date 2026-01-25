@@ -1,5 +1,49 @@
 <footer class="footer">
-  <div class="container">
-    <p>© {{ "now" | date: "%Y" }} Iker Elvi · <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  <div class="container footer-inner">
+
+    <p class="footer-copy">
+      © {{ "now" | date: "%Y" }} Iker Elvi
+    </p>
+
+    <div class="footer-social">
+      <a href="https://www.instagram.com/ikerelvi"
+         target="_blank" rel="noopener"
+         aria-label="Instagram">
+        <!-- Instagram -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5"
+                fill="none" stroke="currentColor" stroke-width="1.7"/>
+          <circle cx="12" cy="12" r="4"
+                  fill="none" stroke="currentColor" stroke-width="1.7"/>
+          <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/>
+        </svg>
+      </a>
+
+      <a href="https://www.linkedin.com/in/iker-elorza-vidal/"
+         target="_blank" rel="noopener"
+         aria-label="LinkedIn">
+        <!-- LinkedIn -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="2"
+                fill="none" stroke="currentColor" stroke-width="1.7"/>
+          <path d="M8 10v7M8 7h.01"
+                fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+          <path d="M12 17v-4a2 2 0 0 1 4 0v4"
+                fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+        </svg>
+      </a>
+
+      <a href="https://www.youtube.com/@TU_CANAL"
+         target="_blank" rel="noopener"
+         aria-label="YouTube">
+        <!-- YouTube -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="3" y="7" width="18" height="10" rx="3"
+                fill="none" stroke="currentColor" stroke-width="1.7"/>
+          <path d="M10 9.5l5 2.5-5 2.5z" fill="currentColor"/>
+        </svg>
+      </a>
+    </div>
+
   </div>
 </footer>

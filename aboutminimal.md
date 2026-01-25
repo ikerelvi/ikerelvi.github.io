@@ -1,23 +1,27 @@
 ---
 layout: minimal
+title: About
 ---
-<section class="hero">
-  <h1>Audio Engineer</h1>
-  <p>{{ site.description }}</p>
-  <!-- <p>Based in Europe</p> -->
 
-  <div class="btns">
-    <a class="btn" href="/music/">Music Portfolio</a>
-    <a class="btn" href="/postproduction/">Post Production Portfolio</a>
-    <a class="btn"  href="/assets/files/IkerElvi_CV.pdf"  target="_blank" rel="noopener">View / Download CV</a>
-    <a class="btn" href="/contact/">Contact</a>
+<div class="cta-row" style="align-items:center; gap:14px;">
+  <img src="/assets/img/M32.jpg" alt="Iker Elvi in the studio"
+       style="width:78px; height:78px; border-radius:18px; border:1px solid var(--line); object-fit:cover;">
+  <div>
+    <h1 class="h1" style="margin:0;">Iker Elvi</h1>
+    <p class="h2" style="margin:4px 0 0;">Audio engineering · Sound design · Game audio</p>
   </div>
-</section>
+</div>
 
 <p class="lede">
 I work across <strong>music production</strong>, <strong>post-production for film</strong>, and <strong>game audio</strong>,
 bringing a technical + creative approach focused on clarity, impact, and storytelling.
 </p>
+
+<div class="cta-row">
+  <a class="btn primary" href="mailto:{{ site.email }}">Let’s work together</a>
+  <a class="btn" href="/portfolio/">View portfolio</a>
+  <a class="btn" href="/assets/files/IkerElvi_CV.pdf" target="_blank" rel="noopener">View CV</a>
+</div>
 
 <section class="section">
   <h3>What I do</h3>
@@ -96,6 +100,3 @@ As a guitarist and bassist, I’ve played in bands and recorded studio albums—
     <span class="chip">Implementation</span>
   </div>
 </div>
-
-
-
