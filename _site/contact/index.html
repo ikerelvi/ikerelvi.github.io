@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contact · Iker Elvi</title>
@@ -8,8 +8,9 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 
-  <body>
-    <header class="header">
+
+<body>
+  <header class="header">
   <div class="container header-inner">
     <a class="logo" href="/">Iker Elvi</a>
     <nav class="nav">
@@ -26,8 +27,8 @@
   </div>
 </header>
 
-    <main class="container">
-      <article class="page">
+  <main class="container">
+    <article class="page">
   <h1>Contact</h1>
   <p>Email: <strong><a href="mailto:ikersa92@gmail.com">ikersa92@gmail.com</a></strong></p>
 
@@ -37,8 +38,8 @@ SoundCloud / Bandcamp / Spotify: <strong>(pon tu link)</strong></p>
 
 </article>
 
-    </main>
-    <footer class="footer">
+  </main>
+  <footer class="footer">
   <div class="container footer-inner">
 
     <p class="footer-copy">
@@ -88,5 +89,29 @@ SoundCloud / Bandcamp / Spotify: <strong>(pon tu link)</strong></p>
   </div>
 </footer>
 
-  </body>
+  <button id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 5l-6 6M12 5l6 6M12 5v14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </svg>
+  </button>
+  <script>
+    const btn = document.getElementById("backToTop");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        btn.classList.add("show");
+      } else {
+        btn.classList.remove("show");
+      }
+    });
+
+    btn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+
+
+</body>
+
 </html>

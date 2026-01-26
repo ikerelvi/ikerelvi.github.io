@@ -1,11 +1,36 @@
 <!doctype html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-    {% include header.html %}
-    <main class="container">
-      {{ content }}
-    </main>
-    {% include footer.html %}
-  </body>
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+  <main class="container">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <button id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 5l-6 6M12 5l6 6M12 5v14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+        stroke-linejoin="round" />
+    </svg>
+  </button>
+  <script>
+    const btn = document.getElementById("backToTop");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 300) {
+        btn.classList.add("show");
+      } else {
+        btn.classList.remove("show");
+      }
+    });
+
+    btn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+
+
+</body>
+
 </html>
