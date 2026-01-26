@@ -18,8 +18,46 @@ a:hover{opacity:.85}
 .hero h1{font-size:42px;line-height:1.1;margin:0 0 10px}
 .hero p{color:var(--muted);margin:0 0 18px}
 .btns{display:flex;gap:10px;flex-wrap:wrap}
-.btn{border:1px solid var(--line);background:var(--card);padding:10px 14px;border-radius:999px}
-.btn.primary{border-color:transparent}
+/*Btn old*/
+/*.btn{border:1px solid var(--line);background:var(--card);padding:10px 14px;border-radius:999px}
+.btn.primary{border-color:transparent}*/
+/*btn new*/
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding: 10px 16px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background .18s ease, color .18s ease, transform .18s ease, opacity .18s ease;
+}
+
+.btn:hover{
+  background: rgba(255,255,255,.05);
+  transform: translateY(-1px);
+}
+
+.btn.primary{
+  background: var(--text);
+  color: #000;
+  border-color: transparent;
+}
+
+.btn.primary:hover{
+  background: #fff;
+}
+
+.btn:disabled{
+  cursor: not-allowed;
+  opacity: .6;
+  transform: none;
+}
+
 
 .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px;margin:20px 0 50px}
 .card{grid-column: span 6;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px}
@@ -297,4 +335,53 @@ hr{border:0;border-top:1px solid var(--line);margin:28px 0}
 #backToTop svg{
   width: 18px;
   height: 18px;
+}
+
+/* FORM Style */
+.contact-form{
+  margin-top: 18px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 16px;
+  max-width: 720px;
+}
+
+.form-row{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  margin-bottom: 12px;
+}
+
+.form-row label{
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: .02em;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.02);
+  color: var(--text);
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+  border-color: rgba(255,255,255,.18);
+}
+
+/* honeypot hidden */
+.hp-field{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
 }
