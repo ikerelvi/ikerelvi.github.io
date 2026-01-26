@@ -385,3 +385,78 @@ hr{border:0;border-top:1px solid var(--line);margin:28px 0}
   height:1px;
   overflow:hidden;
 }
+
+/*Burger*/
+/* Toggle button (hidden on desktop) */
+/* Toggle button: hidden by default (desktop) */
+/* Desktop nav */
+.nav{
+  display:flex;
+  gap:14px;
+  align-items:center;
+}
+
+/* Toggle button hidden on desktop */
+.nav-toggle{
+  display:none;
+  width:44px;
+  height:44px;
+  border-radius:14px;
+  border:1px solid var(--line);
+  background:var(--card);
+  color:var(--muted);
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  gap:4px;
+  cursor:pointer;
+}
+.nav-toggle span{
+  display:block;
+  width:18px;
+  height:2px;
+  background:currentColor;
+  border-radius:999px;
+}
+
+/* Mobile behavior */
+@media (max-width: 760px){
+  .nav-toggle{ display:flex; }
+
+  /* IMPORTANT: hide the normal nav on mobile */
+  .nav{
+    display:none;
+    position:absolute;
+    top:calc(100% + 10px);
+    left:0;
+    right:0;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:18px;
+    padding:10px;
+    z-index:1000;
+  }
+
+  .nav.open{
+    display:flex;
+    flex-direction:column;
+  }
+
+  .nav a{
+    padding:10px 12px;
+    border-radius:14px;
+    color:var(--muted);
+  }
+
+  .nav a:hover{
+    background: rgba(255,255,255,.03);
+    color: var(--text);
+  }
+
+  /* Ensure the dropdown positions relative to header container */
+  .header-inner{
+    position:relative;
+  }
+}
+
+
