@@ -290,14 +290,28 @@ hr{border:0;border-top:1px solid var(--line);margin:28px 0}
 }
 .feature-title{ margin:0 0 6px; font-size: 18px; }
 .feature-desc{ margin:0; color: var(--muted); }
+.tools{
+  margin: 70px 0;
+}
 
-.chips{ display:flex; gap:8px; flex-wrap:wrap; }
+.chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top: 18px;
+}
+
 .chip{
-  font-size: 12px;
-  color: var(--muted);
-  border: 1px solid var(--line);
-  padding: 5px 10px;
+  font-size: 13px;
+  padding: 7px 12px;
   border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.02);
+  color: var(--muted);
+}
+.chip:hover{
+  color: var(--text);
+  background: rgba(255,255,255,.04);
 }
 
 .hr{ border-top:1px solid var(--line); margin: 34px 0; }
@@ -562,4 +576,98 @@ hr{border:0;border-top:1px solid var(--line);margin:28px 0}
   }
 }
 
+/*New Home*/
+.services{
+  margin: 80px 0;
+}
 
+.services h2{
+  margin-bottom: 30px;
+}
+
+.services-grid{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.service-card{
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border:1px solid var(--line);
+  border-radius: 22px;
+  padding: 22px;
+  background: var(--card);
+  transition: transform .18s ease, background .18s ease;
+}
+
+.service-card:hover{
+  transform: translateY(-4px);
+  background: rgba(255,255,255,.03);
+}
+
+.service-icon{
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+
+.service-card h3{
+  margin-bottom: 8px;
+}
+
+.service-card p{
+  color: var(--muted);
+  font-size: 14px;
+}
+
+/* Mobile */
+@media (max-width: 900px){
+  .services-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+/*Selected Work*/
+.selected-work{
+  margin: 100px 0;
+}
+
+.embed-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.embed-card{
+  border:1px solid var(--line);
+  border-radius:24px;
+  padding:18px;
+  background: var(--card);
+}
+
+.embed-label{
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  color: var(--muted);
+  margin-bottom:14px;
+}
+
+.embed-card iframe{
+  width:100%;
+  border-radius:18px;
+}
+
+/* Force YouTube aspect ratio */
+.embed-card iframe[src*="youtube"]{
+  aspect-ratio: 16 / 9;
+  height:auto;
+}
+
+/* Mobile */
+@media (max-width: 900px){
+  .embed-grid{
+    grid-template-columns: 1fr;
+  }
+}
