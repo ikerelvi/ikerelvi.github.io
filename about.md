@@ -3,10 +3,20 @@ layout: page
 title: About
 ---
 
-
-  <div class="about-hero">
-    <img class="about-img" src="/assets/img/SSL.jpg" alt="Iker Elvi working in the studio">
+<section class="about-hero">
+  <div class="about-image">
+    <img src="/assets/img/portfolio_iker_3.jpg"
+         alt="Iker Elvi in studio">
   </div>
+
+  <div class="about-intro">
+    <h1>Iker Elvi</h1>
+    <p class="lead">
+      Audio engineer focused on music production, post-production and game audio.
+    </p>
+  </div>
+</section>
+
 
 
 ### Hi, I’m **Iker Elvi**

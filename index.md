@@ -12,6 +12,12 @@ layout: minimal
     <a class="btn"  href="/assets/files/IkerElvi_CV.pdf"  target="_blank" rel="noopener">View / Download CV</a>
     <a class="btn" href="/contact/">Contact</a>
   </div>
+  <div class="hero-media">
+  <img
+    src="/assets/img/portfolio_iker_1.jpg"
+    alt="Iker Elvi working in the studio"
+    loading="eager">
+</div>
 </section>
 
 <p class="lede">
@@ -74,6 +80,18 @@ bringing a technical + creative approach focused on clarity, impact, and storyte
 
   </div>
 </section>
+<section class="studio-section">
+  <div class="studio-bg">
+    <img src="/assets/img/portfolio_iker_2.jpg"
+         alt="Iker Elvi in studio environment">
+  </div>
+
+  <div class="studio-content">
+    <h2>Precision. Clarity. Emotion.</h2>
+    <p>Studio-driven sound for music and moving image.</p>
+  </div>
+</section>
+
 
 <div class="section">
   <h3>Background</h3>
