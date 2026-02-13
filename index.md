@@ -69,16 +69,9 @@ layout: minimal
     <div class="embed-card">
       <div class="embed-label">Music Production</div>
       <div class="music-description">
-        <strong>Arnau Folch</strong> — Recording / Mixing / Mastering
+        Music Produced by <strong>Iker Elvi</strong>
       </div>
-      <iframe 
-        src="https://open.spotify.com/embed/track/2jZIeiAV4tyMJZHrm5BctW"
-        width="100%" 
-        height="152"
-        frameborder="0"
-        allowtransparency="true"
-        allow="encrypted-media">
-      </iframe>
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6taPQNwVheXlbKE4sWX2fa?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
   </div>
 </section>
