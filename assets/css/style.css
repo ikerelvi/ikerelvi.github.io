@@ -700,3 +700,31 @@ hr{border:0;border-top:1px solid var(--line);margin:28px 0}
     grid-template-columns: 1fr;
   }
 }
+
+/*Technical Image*/
+.technical-image{
+  margin: 60px 0;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+
+.technical-image img{
+  width: 100%;
+  display: block;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.technical-block{
+  margin-top: 60px;
+}
+
+.technical-block ul{
+  margin-top: 14px;
+  color: var(--muted);
+}
+
+.technical-block li{
+  margin-bottom: 6px;
+}

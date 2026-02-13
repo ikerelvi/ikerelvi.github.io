@@ -38,16 +38,16 @@ layout: minimal
       <h3>Post-Production</h3>
       <p>Sound design, editing and mixing for film and visual media.</p>
     </a>
-    <div class="service-card">
+    <a href="/technical/" class="service-card">
       <div class="service-icon">🎮</div>
       <h3>Game Audio</h3>
       <p>Interactive audio implementation using Wwise and middleware tools.</p>
-    </div>
-    <div class="service-card">
+    </a>
+    <a href="/technical/" class="service-card">
       <div class="service-icon">🎤</div>
       <h3>Live & Studio</h3>
       <p>Studio workflows, signal routing and professional audio systems.</p>
-    </div>
+    </a>
 
   </div>
 </section>
