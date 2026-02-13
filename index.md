@@ -2,28 +2,27 @@
 layout: minimal
 ---
 <section class="hero">
-  <h1>Audio Engineer</h1>
+  <h1>Audio Engineer & Sound Designer</h1>
   <p>{{ site.description }}</p>
-  <!-- <p>Based in Europe</p> -->
-
-  <div class="btns">
+  <!--div class="btns">
     <a class="btn" href="/music/">Music Portfolio</a>
     <a class="btn" href="/postproduction/">Post Production Portfolio</a>
     <a class="btn"  href="/assets/files/IkerElvi_CV.pdf"  target="_blank" rel="noopener">View / Download CV</a>
     <a class="btn" href="/contact/">Contact</a>
-  </div>
+  </div-->
   <div class="hero-media">
   <img
     src="/assets/img/portfolio_iker_1.jpg"
     alt="Iker Elvi working in the studio"
     loading="eager">
-</div>
+  </div>
+  <p class="lede">
+  I work across <strong>music production</strong>, <strong>film post-production</strong>, and <strong>game audio</strong>, combining studio practice with a technical mindset. 
+  Whether recording and mixing a band, designing a film scene, or implementing interactive audio in Wwise, my goal is to build sound that supports the experience with precision and intention.
+  </p>
 </section>
 
-<p class="lede">
-I work across <strong>music production</strong>, <strong>post-production for film</strong>, and <strong>game audio</strong>,
-bringing a technical + creative approach focused on clarity, impact, and storytelling.
-</p>
+
 
 <section class="services">
   <h2>What I do</h2>
@@ -56,29 +55,33 @@ bringing a technical + creative approach focused on clarity, impact, and storyte
 <section class="selected-work">
   <h2>Selected Work</h2>
   <div class="embed-grid">
-   <div class="embed-card">
+    <!-- YouTube -->
+    <div class="embed-card">
       <div class="embed-label">Post-Production</div>
       <iframe 
         src="https://www.youtube.com/embed/eqCCqMUsJ24"
-        title="YouTube video"
+        title="Jurassic Park Scene – Sound Redesign"
         frameborder="0"
         allowfullscreen>
       </iframe>
     </div>
+    <!-- Spotify -->
     <div class="embed-card">
       <div class="embed-label">Music Production</div>
+      <div class="music-description">
+        <strong>Arnau Folch</strong> — Recording / Mixing / Mastering
+      </div>
       <iframe 
-        src="https://open.spotify.com/embed/track/2jZIeiAV4tyMJZHrm5BctW?utm_source=generator"
+        src="https://open.spotify.com/embed/track/2jZIeiAV4tyMJZHrm5BctW"
         width="100%" 
-        height="152" 
-        frameborder="0" 
-        allowtransparency="true" 
+        height="152"
+        frameborder="0"
+        allowtransparency="true"
         allow="encrypted-media">
       </iframe>
     </div>
   </div>
 </section>
-
 
 <section class="studio-section">
   <div class="studio-bg">
@@ -102,7 +105,7 @@ As a guitarist and bassist, I’ve played in bands and recorded studio albums—
 </div>
 
 <section class="tools">
-  <h2>Tools & certifications</h2>
+  <h3>Tools & certifications</h3>
   <div class="chips">
     <span class="chip">Pro Tools</span>
     <span class="chip">Ableton Live</span>
